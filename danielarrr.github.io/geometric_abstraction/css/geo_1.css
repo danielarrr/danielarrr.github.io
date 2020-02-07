@@ -1,0 +1,64 @@
+body {
+ background-color: white;
+
+}
+
+
+
+.shape {
+width:700px;
+height:300px;
+
+position: fixed;
+top:3%;
+
+
+display: inline-block;
+  /* needs to be very contrasty color. Some light gray won't work */
+  background: #EA3600;
+  filter: blur(15px);
+
+}
+
+.rec  {
+
+width:700px;
+height:100px;
+position: absolute;
+top: 52%;
+
+display: inline-block;
+  /* needs to be very contrasty color. Some light gray won't work */
+  background: black;
+  filter: blur(15px);
+
+}
+
+.bottom {
+
+width:700px;
+height:200px;
+position: fixed;
+top: 70%;
+
+display: inline-block;
+  /* needs to be very contrasty color. Some light gray won't work */
+  background: blue;
+  filter: blur(15px);
+
+}
+
+
+.bottom {
+
+width:700px;
+height:200px;
+position: static;
+top: 70%;
+
+display: inline-block;
+  /* needs to be very contrasty color. Some light gray won't work */
+  background: blue;
+  filter: blur(15px);
+
+}

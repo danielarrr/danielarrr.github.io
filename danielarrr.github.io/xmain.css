@@ -1,0 +1,54 @@
+body{
+	background-color: white;
+
+
+}
+
+.text {
+	font-family: Arial;
+	 position: absolute;
+  top: 0px;
+  left: 40px;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#FFF714,#F314FF,#FFFB14,#14FFFB,#8DFF14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+}
+
+
+img {
+ /*height: 500px;*/
+  max-width: 9000%;
+  max-height: 7000%
+}
+
+
+.special-img {
+  max-width: 30%;
+  position: absolute;
+  top: 100px;
+  left: 600px;
+  
+}
+
+
+.special-img1 {
+  max-width: 50%;
+  position: absolute;
+  top: 100px;
+  left: 450px;
+  opacity: 0.5;
+}
+
+.special-img2 {
+ max-width: 9000%;
+  max-height: 7000%
+  position: absolute;
+  top: 50px;
+  left: 500px;
+
+}
+

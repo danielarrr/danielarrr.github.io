@@ -1,0 +1,53 @@
+body {
+ background-color: yellow;
+
+}
+
+
+
+.rec {
+
+width:800px;
+height:600px;
+position: absolute;
+top: 52%;
+left: 20%;
+background: pink;
+border-radius: 61% 39% 73% 27% / 44% 73% 27% 56% ;
+
+}
+
+.shape {
+width:89px;
+height:90px;
+position: absolute;
+top: 72%;
+left: 50%;
+background: yellow;
+border-radius:71% 29% 39% 61% / 32% 47% 53% 68%;
+
+}
+
+.shape2 {
+width:89px;
+height:90px;
+position: fixed;
+top: 82%;
+left: 80%;
+background: yellow;
+border-radius:71% 29% 39% 61% / 32% 47% 53% 68%;
+
+}
+
+
+.shape3 {
+width:89px;
+height:90px;
+position: static;
+top: 92%;
+left: 60%;
+background: yellow;
+border-radius:71% 29% 39% 61% / 32% 47% 53% 68%;
+
+}
+
