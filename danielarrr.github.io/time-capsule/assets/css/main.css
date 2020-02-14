@@ -1,0 +1,268 @@
+body{
+
+  background-image: url("b6.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+img {
+ /*height: 500px;*/
+  max-width: 50%;
+}
+
+
+.bar {
+
+max-width: 90000%;
+max-height: 100000%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+ 
+}
+
+
+.long {
+
+max-width: 30000%;
+max-height: 30000%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+ 
+}
+
+.star {
+  max-width: 40%;
+  position: absolute;
+  top: 0px;
+  left: 40px;
+  opacity: 0.7;
+  animation: wiggle3;
+          animation-duration: 3s;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+
+}
+
+.text {
+  max-width: 40%;
+  position: absolute;
+  top: 1750px;
+  left: 40px;
+}
+
+.back {
+  max-width: 70%;
+  position: absolute;
+  top: 350px;
+  left: -100px;
+}
+
+.art {
+  max-width: 30%;
+  position: absolute;
+  top: 1280px;
+  left: 440px;
+}
+
+.corner {
+  max-width: 20%;
+  position: absolute;
+  top: 219px;
+  left: 700px;
+}
+
+
+
+.kylie {
+  max-width: 16%;
+  position: absolute;
+  top: 170px;
+  left: 230px;
+}
+
+
+
+.magic8 {
+  max-width: 38%;
+  position: absolute;
+  top: 500px;
+  left: 770px;
+}
+
+
+
+.onedirection {
+  max-width: 50%;
+  position: absolute;
+  top: 780px;
+  left: 400px;
+
+}
+
+.room {
+  max-width: 30%;
+  position: absolute;
+  top: 1210px;
+  left: 919px;
+}
+
+.rug2 {
+  max-width: 20%;
+  position: absolute;
+  top: 670px;
+  left: 260px;
+}
+
+.blue {
+  max-width: 50%;
+  position: absolute;
+  top: 350px;
+  left: 25px;
+   animation: wiggle1;
+          animation-duration: 1.5s;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+}
+
+
+.flower {
+  max-width: 50%;
+  position: absolute;
+  top: 50px;
+  left: 655px;
+  opacity: 0.7;
+  animation: wiggle;
+          animation-duration: 4s;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+          
+}
+
+.smile {
+  max-width: 50%;
+  position: absolute;
+  top: 1550px;
+  left: 25px;
+  opacity: 0.7;
+   animation: wiggle2;
+          animation-duration: 4.5s;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+}
+
+
+
+.shirt {
+  max-width: 20%;
+  position: absolute;
+  top: 1980px;
+  left: 790px;
+}
+
+
+.super {
+  max-width: 20%;
+  position: absolute;
+  top: -30px;
+  left: 1120px;
+}
+
+
+
+.tote1 {
+  max-width: 20%;
+  position: absolute;
+  top: 50px;
+  left: 1000px;
+}
+
+.tyler {
+  max-width: 14%;
+  position: absolute;
+  top: 700px;
+  left: 90px;
+  animation: wiggle4;
+          animation-duration: 4s;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes wiggle { 
+        
+        from  {  width: 50vw;
+                 height: 50vh;
+                 transform: translate(5vw, 65vh);
+                 }
+
+                 to {  width: 10vw;
+                 height:50vh;
+                 transform: translate(15vw, 15vh)  rotateZ(0deg);
+                 }
+    }
+
+
+
+ @keyframes wiggle1 {
+            from {
+               height: 190vh;
+               transform: translate(5vw, 45vh);
+            }
+            to {
+               height: 190vh;
+               transform: translate(5vw, 5vh)  rotateZ(0deg);; 
+            }
+         }
+
+
+
+
+
+
+ @keyframes wiggle2 {
+            from {
+               height: 90vh;
+               transform: translate(0vw, 45vh);
+            }
+            to {
+               height: 90vh;
+               transform: translate(45vw, 5vh)  rotateZ(0deg);; 
+            }
+         }
+
+
+ @keyframes wiggle3 {
+            from {
+               height: 70vh;
+               transform: translate(5vw, 5vh);
+            }
+            to {
+               height: 70vh;
+               transform: translate(5vw, 5vh)  rotateZ(365deg);; 
+            }
+         }
+
+ @keyframes wiggle4 {
+            from {
+               height: 30vh;
+               transform: translate(88vw, 65vh);
+            }
+            to {
+               height: 30vh;
+               transform: translate(-5vw, 95vh)  rotateZ(0deg);; 
+            }
+         }
+
+
+
+
+
+
+
+
