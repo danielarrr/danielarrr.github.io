@@ -33,52 +33,344 @@ body {
 
 
 .flower {
-    background-color: green;
-      width: 200px;
-      height: 100px;
-    rotate:  330deg;
-    top: 25vw;
-    left: 52vw;
-    position: absolute
+     background-color: green;
+    width: 0.3vw;
+    height: 9vw;
+    rotate: 330deg;
+    top: 18vw;
+    left: 57vw;
+    position: absolute;
     }
 
 
+    .flower2 {
+     background-color: green;
+    width: 0.3vw;
+    height: 7vw;
+    transform: rotate(17deg);
+    rotate: 325deg;
+    top: 20vw;
+    left: 58vw;
+    position: absolute;
+    }
+
+    .flower3 {
+    background-color: green;
+    width: 0.3vw;
+    height: 6vw;
+    transform: rotate(-16deg);
+    rotate: 330deg;
+    top: 21vw;
+    left: 56vw;
+    position: absolute;
+    }
+
+.pedal {
+    background-color: #F78BBC;
+    width: 3.3vw;
+    height: 3.3vw;
+    border-radius: 50%;
+    top: 17vw;
+    left: 55.5vw;
+    position: absolute;
+    }
+
+    .pedal2 {
+     background-color: pink;
+    width: 3.3vw;
+    height: 3.3vw;
+    border-radius: 50%;
+    top: 19vw;
+    left: 57.5vw;
+    position: absolute;
+    }
+
+    .pedal3 {
+    background-color: pink;
+    width: 3.3vw;
+    height: 3.3vw;
+    border-radius: 50%;
+    top: 19vw;
+    left: 53.5vw;
+    position: absolute;
+    }
 
 .book-top{  
 
        width: 15vw;
     height: 9vw;
-    transform: skew(-310deg);
+    transform: skew(-318deg);
     background: #090F80;
     position: absolute;
     top: 30vw;
-    left: 51vw;
+    left: 51vw;}
+
+.book-middle {  
+
+width: 8vw;
+    height: 2vw;
+    background: #8BCCF7;
+    position: absolute;
+    top: 34.4vw;
+    left: 47vw;
+    transform: rotate(-360deg);
+    transform: skew(2deg, 48deg);
+
+
+  }
+
+  .book-bottom {  
+
+    width: 15vw;
+    height: 2vw;
+    background: white;
+    position: absolute;
+    top: 38.8vw;
+    left: 55vw;
+
+  }
+
+   .top {  
+
+    border-bottom: 2vw solid #ECEDED;
+    border-left: 5vw solid transparent;
+    border-right: 0.7vw solid transparent;
+    height: 0;
+    width: 4vw;
+    background: transparent;
+    position: absolute;
+    top: 14.8vw;
+    left: 41vw;
+    transform: rotate(-360deg);
+    transform: skew(66deg, 0deg);
+
+  }
+
+  .front {  
+
+      width: 8.9vw;
+    height: 16vw;
+    background: #B1B2B3;
+    position: absolute;
+    top: 16.8vw;
+    left: 43.3vw;
+
+  }
+
+
+
+
+
+.bookm{  
+
+    width: 8vw;
+    height: 4vw;
+    background: white;
+    position: absolute;
+    top: 36.4vw;
+    left: 47vw;
+    transform: rotate(-360deg);
+    transform: skew(2deg, 48deg);
+
+  }
+
+  .bookb {  
+
+    width: 15vw;
+    height: 4vw;
+    background: darkslategrey;
+    position: absolute;
+    top: 40.8vw;
+    left: 55vw;
+
+  }
+
+
+.catears {
+
+    width: 0;
+    height: 0;
+    border-left: 1.5vw solid transparent;
+    border-right: -5.5vw solid transparent;
+    border-bottom: 3vw solid red;
+    position: absolute;
+    top: 19.8vw;
+    left: 52vw;
+    transform: rotate(-360deg);
+    transform: skew(2deg, 40deg);
+
 }
 
- 
+
+.catw {
+
+       width: 0;
+    height: 0;
+    border-left: 1.5vw solid transparent;
+    border-right: -5.5vw solid transparent;
+    border-bottom: 3vw solid white;
+    position: absolute;
+    top: 19.8vw;
+    left: 52.5vw;
+    transform: rotate(-360deg);
+    transform: skew(1deg, 43deg);
+
+}
+
+.catearss {
+
+   border-bottom: 2vw solid red;
+    width: 0;
+    height: 0;
+    border-left: 1.3vw solid transparent;
+    border-bottom: 2vw solid red;
+    border-bottom: 3vw solid red;
+    position: absolute;
+    top: 19.8vw;
+    left: 49vw;
+    transform: rotate(-360deg);
+    transform: skew(14deg, -21deg);
+
+}
 
 
+.catwhite {
+
+    width: 0;
+    height: 0;
+    border-left: 2.3vw solid transparent;
+    border-right: -5.5vw solid transparent;
+    border-bottom: 3vw solid white;
+    position: absolute;
+    top: 18.8vw;
+    left: 48.9vw;
+    transform: rotate(-360deg);
+    transform: skew(36deg, -6deg);
+
+}
+
+
+ .cathead {
+    background-color: white;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    top: 21vw;
+    left: 48vw;
+    position: absolute;
+
+ }
+
+
+ .cateye {
+    background-color: black;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    top: 24.7vw;
+    left: 51vw;
+    position: absolute;
+    transform: rotate(-360deg);
+    transform: skew(-19deg, 23deg);
+ }
+
+ .catnose {
+       background-color: black;
+    width: 0.6vw;
+    height: 0.6vw;
+    border-radius: 50%;
+    top: 25.7vw;
+    left: 48.5vw;
+    position: absolute;
+    transform: rotate(-360deg);
+    transform: skew(0deg, 30deg);
+ }
+
+
+
+ .catmouthh { 
+
+       background-color: black;
+    width: 0.2vw;
+    height: 0.9vw;
+    transform: rotate(-28deg);
+    rotate: 330deg;
+    top: 26vw;
+    left: 49vw;
+    position: absolute;}
+
+     .catmouth { 
+
+       background-color: black;
+    width: 0.2vw;
+    height: 0.9vw;
+    transform: rotate(-28deg);
+    rotate: 330deg;
+    top: 26vw;
+    left: 49vw;
+    position: absolute;}
+
+
+
+.catbody {
+      width: 8vw;
+    height: 10vw;
+    background: white;
+    border-radius: 45vw / 50vw;
+    position: absolute;
+    top: 26.8vw;
+    left: 49vw;}
 
  .camera {
-    width: 8vw;
+     width: 8vw;
     height: 7vw;
     background: black;
-    top: 37vw;
-    left: 60vw;
+    top: 42vw;
+    left: 64vw;
     position: absolute;
 
     }
 
+
+    .camside{  
+
+    width: 2vw;
+    height: 7vw;
+    background: #2B2B2B;
+    position: absolute;
+    top: 41.0vw;
+    left: 62.1vw;
+    transform: rotate(-360deg);
+    transform: skew(0deg, 48deg)
+
+  }
+
+
+    .camtop{  
+
+       width: 8vw;
+    height: 2.4vw;
+    transform: skew(-318deg);
+    background: #424242;
+    position: absolute;
+    top: 39.7vw;
+    left: 63vw;
+
+
+  }
+
+
+
      .lens {     
-    width: 4vw;
+        width: 4vw;
     height: 4vw;
     background: #2F2B35;
     border-radius: 50%;
     border-width: -1vw;
     border-style: solid;
     border-color: grey;
-    top: 38vw;
-    left: 62vw;
+    top: 43vw;
+    left: 66vw;
     position: absolute;
     
  }
