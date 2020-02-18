@@ -1,0 +1,44 @@
+body {
+	background: blue;
+}
+
+
+@font-face {
+  font-family: "SimplonNorm-Regular";
+  src: 
+    url("netarchive/fonts/SimplonNorm-Regular.woff") format("woff"), /* Modern Browsers */
+    url("netarchive/fonts/SimplonNorm-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+.h1 {
+  color: white;
+  font-size: 34px;
+  line-height: 1.4;
+  font-family: 'SimplonNorm-Regular';
+}
+
+
+.body-text {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: 'SimplonNorm-Regular';
+}
+
+.title {
+  font-size: 34px;
+  line-height: 1.2;
+  font-family: 'SimplonNorm-Regular';
+}
+
+.small-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-family: 'SimplonNorm-Regular';
+}
