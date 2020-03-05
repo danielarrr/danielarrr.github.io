@@ -1,0 +1,137 @@
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+@font-face {
+  font-family: "Anton-Regular";
+  src: url("./fonts/Anton-Bold.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Anton-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Anton-Bold.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Anton-Bold.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Anton-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Anton-Bold.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Anton-Bold.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  background-color: black;
+  color: white;
+  min-height: 82vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 17.5vw;
+  margin: auto; /* An auto margin in a flexbox container will position the element automatically in the center, in both the X and Y axis. */
+}
+
+.small-title {
+  font-size: 4vw;
+  margin-left: -4.5vw;
+  font-family: 'Anton-Regular';
+}
+
+.row {
+  display: flex;
+  margin-top: -2vw;
+}
+
+.col {
+  flex: 1;
+  border: 1vw solid black;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+  font-family: 'Anton-Regular';
+}
+
+
+
+
+html {
+  background: black;
+  color: #ff6a00;
+}
+
+.flex-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.title {
+  
+  margin: auto;
+  font-size: 20vmin;
+  font-family: sans-serif;
+}
+
+.logo{
+   
+   width: 102%;
+    height: 56vh;
+     animation: wiggle;
+          animation-duration: 4s;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+
+}
+
+
+.image1{
+	top: 20vh;
+ animation: wiggle;
+          animation-duration: 0s;
+          animation-direction: alternate;
+          animation-iteration-count: infinite;
+}
+
+@keyframes wiggle { 
+        
+        from  {  width: 100vw;
+                 height: 100vh;
+                 transform: translate(1vw, 5vh);
+                 }
+
+                 to {  width: 70vw;
+                 height:70vh;
+                 transform: translate(5vw, 5vh)  rotateZ(0deg);
+                 }
+    }
+
+
+
+@media screen and (max-width: 700px) {
+  .row {
+    display: block;
+   }
+  
+  .col {
+    text-align: center;
+  }
+  
+  html {
+    background-color: black;
+    color: #ff6a00;
+  }
+  
+  .container {
+    background-color: black;
+    color: black;
+  }
+  
+  .col {
+    border-color: black;
+  }
+}

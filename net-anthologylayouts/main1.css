@@ -1,0 +1,109 @@
+
+body {
+  background-color: lightgrey;
+}
+
+@font-face {
+  font-family: "GTHaptikRegular";
+  src: 
+    url("assets/fonts/GT-Haptik-Regular.woff") format("woff"), /* Modern Browsers */
+    url("assets/fonts/GT-Haptik-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SimplonNorm-Regular";
+  src: url("assets/fonts3/SimplonNorm-Regular.eot"); /* IE9 Compat Modes */
+  src: url("assets/fonts3/SimplonNorm-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("assets/fonts3/SimplonNorm-Regular.woff") format("woff"), /* Modern Browsers */
+    url("assets/fonts3/SimplonNorm-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.title {
+  border-style: outset;
+ border-left-width: 10px;
+ text-align: center;
+  font-family: 'GTHaptikRegular';
+  font-size: 10vw;
+  background: -webkit-linear-gradient(#0026ff,#0026ff,  #e1ff00, #e1ff00 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.body {
+  font-size: 2vw;
+  font-family: 'SimplonNorm-Regular';
+  color: black;
+
+}
+
+.middleimage {
+ height: 15vw;
+
+}
+
+.s {
+  text-align: center;
+  display: flex;
+  font-size: 4vw;
+  font-family: 'SimplonNorm-Regular';
+  color: blue;
+
+}
+
+.s1 {
+  text-align: center;
+  display: flex;
+  font-size: 4vw;
+  font-family: 'SimplonNorm-Regular';
+  color: black;
+
+}
+
+.t {
+   font-family: 'GTHaptikRegular';
+  font-size: 4vw;
+ 
+  background: -webkit-linear-gradient(#0026ff,#0026ff,  #e1ff00, #e1ff00 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  padding-left: 2vw;
+    width: 100%;
+    padding-right: 2vw;
+} 
+
+
+ 
+
+  .center {
+    justify-content: center;
+  }
+
+
+
+@media (max-width:700px) {
+  body {
+    background-color: lightgrey;
+  }
+  .title { background: -webkit-linear-gradient(#0026ff,#0026ff,  #e1ff00, #e1ff00 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;;
+   }
+   .row {
+    display: block;
+   }
+
+   }
+ 

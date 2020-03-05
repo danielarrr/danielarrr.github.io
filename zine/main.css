@@ -1,0 +1,501 @@
+body{
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+@font-face {
+  font-family: "Gooper-SemiBoldItalic";
+  src: url("fonts/gooper-semibolditalic-webfont.eot"); /* IE9 Compat Modes */
+  src: url("fonts/gooper-semibolditalic-webfont.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("fonts/gooper-semibolditalic-webfont.otf") format("opentype"), /* Open Type Font */
+    url("fonts/gooper-semibolditalic-webfont.svg") format("svg"), /* Legacy iOS */
+    url("fonts/gooper-semibolditalic-webfont.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("fonts/gooper-semibolditalic-webfont.woff") format("woff"), /* Modern Browsers */
+    url("fonts/gooper-semibolditalic-webfont.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: "Gooper-SemiBoldItalic";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 8vw;
+  text-align: center;
+}
+
+
+
+
+
+.s2 {
+     width: 29vw;
+    z-index: -1;
+    position: relative;
+    top: -38vw;
+    left: -18.5vw;
+}
+
+.s1 {
+    width: 29vw;
+    z-index: -1;
+    position: relative;
+    top: -68vw;
+    left: 50.5vw
+}
+
+.rgirl {
+     width: 29vw;
+    z-index: -1;
+    position: relative;
+    top: -76vw;
+    left: -16.5vw;
+}
+
+.mushroom {
+       width: 34vw;
+    z-index: -1;
+    position: relative;
+    top: -101vw;
+    left: 15.5vw;
+}
+
+
+.mountain {
+     width: 30vw;
+    z-index: -1;
+    position: relative;
+    top: -139vw;
+    left: 53.5vw;
+}
+
+.glander {
+       width: 27vw;
+    z-index: -1;
+    position: relative;
+    top: -125vw;
+    left: -13.5vw;
+}
+
+.me {
+      width: 27vw;
+    z-index: -1;
+    position: relative;
+    top: -125vw;
+    left: -12.5vw;
+}
+
+.bf {
+    width: 20vw;
+    z-index: -1;
+    position: relative;
+    top: -165vw;
+    left: 48.5vw; 
+}
+
+
+
+.small-title {
+       font-family: "Gooper-SemiBoldItalic";
+    font-size: 3vw;
+    z-index: -1;
+    position: relative;
+    top: -176vw;
+    left: 15.5vw;
+
+}
+
+.textbox {
+       font-family: "helvetica";
+    font-size: 2vw;
+    z-index: -1;
+    position: relative;
+    top: -176vw;
+    left: 15.5vw;
+        margin-top: 3vw;
+
+}
+
+
+.small-title2 {
+      font-family: "Gooper-SemiBoldItalic";
+    font-size: 3vw;
+    z-index: -1;
+    position: relative;
+    top: -164vw;
+    left: 15.5vw;
+
+}
+
+.textbox2 {
+       font-family: "helvetica";
+    font-size: 2vw;
+    z-index: -1;
+    position: relative;
+    top: -164vw;
+    left: 15.5vw;
+    margin-top: 3vw;
+}
+
+.q1 {
+    font-family: "Gooper-SemiBoldItalic";
+    font-size: 5vw;
+    z-index: -1;
+    position: relative;
+    top: -140vw;
+    left: -12.5vw;
+    margin-top: 6vw;
+
+}
+
+.ex1 {
+   font-family: "helvetica";
+    font-size: 2vw;
+    z-index: -1;
+    position: relative;
+    top: -181vw;
+    left: 10.5vw;
+    margin-top: 4vw;
+    background-color: white;
+    width: 122vh;
+    height: 33vh;
+    overflow: hidden;
+}
+
+.ex2 {
+font-family: "helvetica";
+    font-size: 2vw;
+    z-index: -1;
+    position: relative;
+    top: -181vw;
+    left: -12.5vw;
+    margin-top: 4vw;
+    background-color: white;
+    width: 175vh;
+    height: 90vh;
+    overflow: hidden;
+}
+
+
+
+.q2 {
+         font-family: "Gooper-SemiBoldItalic";
+    font-size: 5vw;
+    z-index: -1;
+    position: relative;
+    top: -181vw;
+    left: -12.5vw;
+    margin-top: 3vw;
+
+}
+
+.ex3 {
+   font-family: "helvetica";
+    font-size: 2vw;
+    z-index: -1;
+    position: relative;
+    top: -181vw;
+    left: -10.5vw;
+    margin-top: 4vw;
+    background-color: white;
+    width: 166vh;
+    height: 47vh;
+    overflow: hidden;
+}
+
+
+.g6 {
+      width: 49vw;
+    z-index: -1;
+    position: relative;
+    top: -181vw;
+    left: 7.5vw;
+}
+
+
+.q3 {
+         font-family: "Gooper-SemiBoldItalic";
+    font-size: 5vw;
+    z-index: -1;
+    position: relative;
+    top: -177vw;
+    left: -12.5vw;
+    margin-top: 3vw;
+
+}
+
+.g4 {
+    width: 33vw;
+    z-index: -1;
+    position: relative;
+    top: -176vw;
+    left: 42.5vw;
+
+}
+
+
+.ex4 {
+   font-family: "helvetica";
+    font-size: 2vw;
+    z-index: -1;
+    position: relative;
+    top: -208vw;
+    left: -12.5vw;
+    margin-top: 4vw;
+    background-color: white;
+    width: 98vh;
+    height: 50vh;
+    overflow: hidden;
+}
+
+
+
+.q4 {
+         font-family: "Gooper-SemiBoldItalic";
+    font-size: 5vw;
+    z-index: -1;
+    position: relative;
+    top: -205vw;
+    left: -12.5vw;
+    margin-top: 3vw;
+
+}
+
+.g5 {
+          width: 20vw;
+    z-index: -1;
+    position: relative;
+    top: -159vw;
+    left: -12.5vw;
+    
+
+}
+
+
+.ex5 {
+font-family: "helvetica";
+    font-size: 2vw;
+    z-index: -1;
+    position: relative;
+    top: -213vw;
+    left: 12.5vw;
+    margin-top: 4vw;
+    background-color: white;
+    width: 98vh;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.q5 {
+      font-family: "Gooper-SemiBoldItalic";
+    font-size: 5vw;
+    z-index: -1;
+    position: relative;
+    top: -225vw;
+    left: -12.5vw;
+    margin-top: 3vw;
+
+}
+
+.ex6 {
+font-family: "helvetica";
+    font-size: 2vw;
+    z-index: -1;
+    position: relative;
+    top: -226vw;
+    left: 28.5vw;
+    margin-top: 4vw;
+    background-color: white;
+    width: 98vh;
+    height: 46vh;
+    overflow: hidden;
+}
+
+
+.ex8 {
+font-family: "helvetica";
+    font-size: 2vw;
+    z-index: -1;
+    position: relative;
+    top: -226vw;
+    left: 28.5vw;
+    margin-top: 4vw;
+    background-color: white;
+    width: 98vh;
+    height: 51vh;
+    overflow: hidden;
+}
+
+.long {
+      width: 33vw;
+    z-index: -1;
+    position: relative;
+    top: -278vw;
+    left: -12.5vw;
+   
+
+}
+
+
+
+.girl {
+      width: 33vw;
+    z-index: -1;
+    position: relative;
+    top: -266vw;
+    left: 11.5vw;
+   
+
+}
+
+.s3 {
+    width: 33vw;
+    z-index: -1;
+    position: relative;
+    top: -298vw;
+    left: -13.5vw;
+
+}
+
+.s4 {
+       width: 33vw;
+    z-index: -1;
+    position: relative;
+    top: -330vw;
+    left: 38.5vw;
+
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  width: 100%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+}
+
+.col-1 {
+  width: 15%;
+}
+
+.col-2 {
+  width: 70%;
+}
+
+.col-3 {
+  width: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+@media print { 
+  .title{
+    display:none;
+  }
+  .s4{
+    display:none;
+  }
+  .s3{
+    display:none;
+  }
+
+  .ex1{
+    display:none;
+  }
+  .ex2{
+    display:none;
+  }
+  .ex3{
+    display:none;
+  }
+.ex4{
+    display:none;
+  }
+.ex5{
+    display:none;
+  }
+  .ex6{
+    display:none;
+  }
+
+  .q1{
+    display:none;
+  }
+
+    .q2{
+    display:none;
+  }
+.q3{
+    display:none;
+  }
+.q4{
+    display:none;
+  }
+  .q5{display:none;
+    
+}
+
+  .long{
+    display:none;
+  }
+
+  .girl{
+    display:none;
+  }
+
+    .g6{
+    display:none;
+  }
+.g5{
+    display:none;
+  }
+.small-title2{
+    display:none;
+  }
+  .small-title{display:none;
+    
+}
+
+  .me{
+    display:none;
+  }
+
+    .glander{
+    display:none;
+  }
+.mountain{
+    display:none;
+  }
+.mushroom{
+    display:none;
+  }
+  .textbox{display:none;
+    
+}
+
+ .textbox2{display:none;
+    
+}
+
+}
+
