@@ -1,0 +1,42 @@
+.video {
+
+    padding-top: 0px;
+    padding-left: 249px;
+    padding-bottom: 29px;
+
+
+}
+
+.text{ 
+
+    font-size: 47px;
+	font-family: "helvetica";
+}
+ 
+
+ .text2 {
+font-family: "helvetica";
+    font-size: 24px;
+    z-index: -1;
+    position: absolute;
+    top: 712px;
+    left: 248px;
+    right: 269px;
+    margin-top: 15px;
+
+ }
+
+  .text3 {
+
+    font-family: "helvetica";
+    font-size: 32px;
+    z-index: -1;
+    position: absolute;
+    top: 847px;
+    left: 248px;
+    right: 269px;
+    margin-top: 15px;
+   margin-bottom: 80PX;
+
+
+ }

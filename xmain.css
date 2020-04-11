@@ -9,13 +9,22 @@ body{
 	 position: absolute;
   top: 0px;
   left: 40px;
-  font-size: 72px;
+  font-size: 92px;
   background: -webkit-linear-gradient(#FFF714,#F314FF,#FFFB14,#14FFFB,#8DFF14);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 
+.text1 {
+  font-family: Arial;
+   position: absolute;
+  top: 200px;
+  left: 40px;
+  font-size: 72px;
+  background: -webkit-linear-gradient(#7deeff,#9e7dff,#ecff19,#ff61cd,#92ff70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -51,4 +60,6 @@ img {
   left: 500px;
 
 }
+
+
 

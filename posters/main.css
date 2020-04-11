@@ -1,0 +1,799 @@
+body{
+     background-color: #e3e3e3;
+
+
+}
+
+
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text {
+     top: 7vw;
+    left: 20vw;
+    position: absolute;
+    font-size: 19vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example {
+   10%  {-webkit-text-fill-color: #ff4fcd;}
+  25%  {-webkit-text-fill-color:#fffb1f;}
+  45%  {-webkit-text-fill-color: #42e6ff;}
+  50%  {-webkit-text-fill-color:#9a42ff;}
+  70%  {-webkit-text-fill-color:#5cff40;}
+  100% {-webkit-text-fill-color:#ffbd42;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text1 {
+   top: 7vw;
+    left: 36vw;
+    position: absolute;
+    font-size: 19vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example1;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example1 {
+   10%  {-webkit-text-fill-color: #5cff40;}
+  25%  {-webkit-text-fill-color:#ff4fcd;}
+  45%  {-webkit-text-fill-color: #ffbd42;}
+  50%  {-webkit-text-fill-color:#fffb1f;}
+  70%  {-webkit-text-fill-color: #9a42ff;}
+  100% {-webkit-text-fill-color:#42e6ff;} 
+
+}
+
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text2 {
+   top: 7vw;
+    left: 46.8vw;
+    position: absolute;
+    font-size: 19vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example2;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+
+@keyframes example2 {
+   10%  {-webkit-text-fill-color: #ffbd42;}
+  25%  {-webkit-text-fill-color:#42e6ff;}
+  45%  {-webkit-text-fill-color: #5cff40;}
+  50%  {-webkit-text-fill-color:#ff4fcd;}
+  70%  {-webkit-text-fill-color: #fffb1f;}
+  100% {-webkit-text-fill-color:#9a42ff;} 
+
+}
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text3 {
+   top: 7vw;
+    left: 51.7vw;
+    position: absolute;
+    font-size: 19vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example3;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+
+@keyframes example3 {
+   10%  {-webkit-text-fill-color: #9a42ff;}
+  25%  {-webkit-text-fill-color:#5cff40;}
+  45%  {-webkit-text-fill-color: #fffb1f;}
+  50%  {-webkit-text-fill-color:#42e6ff;}
+  70%  {-webkit-text-fill-color: #ffbd42;}
+  100% {-webkit-text-fill-color: #ff4fcd;} 
+
+}
+
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text4 {
+   top: 7vw;
+    left: 56.9vw;
+    position: absolute;
+    font-size: 19vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example4;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example4 {
+   10%  {-webkit-text-fill-color: #fffb1f;}
+  25%  {-webkit-text-fill-color: #9a42ff;}
+  45%  {-webkit-text-fill-color: #ff4fcd;}
+  50%  {-webkit-text-fill-color:#ffbd42;}
+  70%  {-webkit-text-fill-color: #42e6ff;}
+  100% {-webkit-text-fill-color: #5cff40;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text5 {
+   top: 7vw;
+    left: 68vw;
+    position: absolute;
+    font-size: 19vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example5;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+@keyframes example5 {
+   10%  {-webkit-text-fill-color: #42e6ff;}
+  25%  {-webkit-text-fill-color: #ffbd42;}
+  45%  {-webkit-text-fill-color: #9a42ff;}
+  50%  {-webkit-text-fill-color: #5cff40;}
+  70%  {-webkit-text-fill-color: #ff4fcd;}
+  100% {-webkit-text-fill-color: #fffb1f;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text6 {
+     top: 24vw;
+    left: 20vw;
+    position: absolute;
+    font-size: 19vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example6;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example6 {
+   10%  {-webkit-text-fill-color: #ffbd42;}
+  25%  {-webkit-text-fill-color:#42e6ff;}
+  45%  {-webkit-text-fill-color: #5cff40;}
+  50%  {-webkit-text-fill-color:#ff4fcd;}
+  70%  {-webkit-text-fill-color: #fffb1f;}
+  100% {-webkit-text-fill-color:#9a42ff;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text7 {
+   top: 24vw;
+    left: 35vw;
+    position: absolute;
+    font-size: 19vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example7;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example7 {
+   10%  {-webkit-text-fill-color: #fffb1f;}
+  25%  {-webkit-text-fill-color: #9a42ff;}
+  45%  {-webkit-text-fill-color: #ff4fcd;}
+  50%  {-webkit-text-fill-color:#ffbd42;}
+  70%  {-webkit-text-fill-color: #42e6ff;}
+  100% {-webkit-text-fill-color: #5cff40;} 
+
+}
+
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text8 {
+   top: 24vw;
+    left: 44.8vw;
+    position: absolute;
+    font-size: 19vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example8;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example8 {
+   10%  {-webkit-text-fill-color: #ff4fcd;}
+  25%  {-webkit-text-fill-color:#fffb1f;}
+  45%  {-webkit-text-fill-color: #42e6ff;}
+  50%  {-webkit-text-fill-color:#9a42ff;}
+  70%  {-webkit-text-fill-color:#5cff40;}
+  100% {-webkit-text-fill-color:#ffbd42;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text9 {
+   top: 24vw;
+    left: 55.7vw;
+    position: absolute;
+    font-size: 19vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example9;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+
+@keyframes example9 {
+   10%  {-webkit-text-fill-color: #5cff40;}
+  25%  {-webkit-text-fill-color:#ff4fcd;}
+  45%  {-webkit-text-fill-color: #ffbd42;}
+  50%  {-webkit-text-fill-color:#fffb1f;}
+  70%  {-webkit-text-fill-color: #9a42ff;}
+  100% {-webkit-text-fill-color:#42e6ff;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text10 {
+   top: 24vw;
+    left: 65.9vw;
+    position: absolute;
+    font-size: 19vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example10;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example10 {
+   10%  {-webkit-text-fill-color: #9a42ff;}
+  25%  {-webkit-text-fill-color:#5cff40;}
+  45%  {-webkit-text-fill-color: #fffb1f;}
+  50%  {-webkit-text-fill-color:#42e6ff;}
+  70%  {-webkit-text-fill-color: #ffbd42;}
+  100% {-webkit-text-fill-color: #ff4fcd;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text11 {
+     top: 42vw;
+    left: 20vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example11;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example11 {
+   10%  {-webkit-text-fill-color: #5cff40;}
+  25%  {-webkit-text-fill-color:#ff4fcd;}
+  45%  {-webkit-text-fill-color: #ffbd42;}
+  50%  {-webkit-text-fill-color:#fffb1f;}
+  70%  {-webkit-text-fill-color: #9a42ff;}
+  100% {-webkit-text-fill-color:#42e6ff;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text12 {
+   top: 42vw;
+    left: 27vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example12;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example12 {
+   10%  {-webkit-text-fill-color: #9a42ff;}
+  25%  {-webkit-text-fill-color:#5cff40;}
+  45%  {-webkit-text-fill-color: #fffb1f;}
+  50%  {-webkit-text-fill-color:#42e6ff;}
+  70%  {-webkit-text-fill-color: #ffbd42;}
+  100% {-webkit-text-fill-color: #ff4fcd;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text13 {
+   top: 42vw;
+    left: 34.5vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example13;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+@keyframes example13 {
+   10%  {-webkit-text-fill-color: #ff4fcd;}
+  25%  {-webkit-text-fill-color:#fffb1f;}
+  45%  {-webkit-text-fill-color: #42e6ff;}
+  50%  {-webkit-text-fill-color:#9a42ff;}
+  70%  {-webkit-text-fill-color:#5cff40;}
+  100% {-webkit-text-fill-color:#ffbd42;} 
+
+}
+
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text14 {
+   top: 42vw;
+    left: 38.2vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example9;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+
+@keyframes example9 {
+   10%  {-webkit-text-fill-color: #5cff40;}
+  25%  {-webkit-text-fill-color:#ff4fcd;}
+  45%  {-webkit-text-fill-color: #ffbd42;}
+  50%  {-webkit-text-fill-color:#fffb1f;}
+  70%  {-webkit-text-fill-color: #9a42ff;}
+  100% {-webkit-text-fill-color:#42e6ff;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text15 {
+   top: 42vw;
+    left: 43.5vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example10;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example10 {
+   10%  {-webkit-text-fill-color: #9a42ff;}
+  25%  {-webkit-text-fill-color:#5cff40;}
+  45%  {-webkit-text-fill-color: #fffb1f;}
+  50%  {-webkit-text-fill-color:#42e6ff;}
+  70%  {-webkit-text-fill-color: #ffbd42;}
+  100% {-webkit-text-fill-color: #ff4fcd;} 
+
+}
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text16 {
+   top: 42vw;
+    left: 50.8vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example16;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example16 {
+   10%  {-webkit-text-fill-color: #ff4fcd;}
+  25%  {-webkit-text-fill-color:#fffb1f;}
+  45%  {-webkit-text-fill-color: #42e6ff;}
+  50%  {-webkit-text-fill-color:#9a42ff;}
+  70%  {-webkit-text-fill-color:#5cff40;}
+  100% {-webkit-text-fill-color:#ffbd42;} 
+
+}
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text17 {
+   top: 42vw;
+    left: 54.8vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example17;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example17 {
+   10%  {-webkit-text-fill-color: #fffb1f;}
+  25%  {-webkit-text-fill-color: #9a42ff;}
+  45%  {-webkit-text-fill-color: #ff4fcd;}
+  50%  {-webkit-text-fill-color:#ffbd42;}
+  70%  {-webkit-text-fill-color: #42e6ff;}
+  100% {-webkit-text-fill-color: #5cff40;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text18 {
+   top: 42vw;
+    left: 61.9vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example18;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+@keyframes example18 {
+   10%  {-webkit-text-fill-color: #ff4fcd;}
+  25%  {-webkit-text-fill-color:#fffb1f;}
+  45%  {-webkit-text-fill-color: #42e6ff;}
+  50%  {-webkit-text-fill-color:#9a42ff;}
+  70%  {-webkit-text-fill-color:#5cff40;}
+  100% {-webkit-text-fill-color:#ffbd42;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text19 {
+     top: 53vw;
+    left: 20vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example19;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example19 {
+   10%  {-webkit-text-fill-color: #ffbd42;}
+  25%  {-webkit-text-fill-color:#42e6ff;}
+  45%  {-webkit-text-fill-color: #5cff40;}
+  50%  {-webkit-text-fill-color:#ff4fcd;}
+  70%  {-webkit-text-fill-color: #fffb1f;}
+  100% {-webkit-text-fill-color:#9a42ff;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text20 {
+   top: 53vw;
+    left: 26.8vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example20;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example20 {
+   10%  {-webkit-text-fill-color: #5cff40;}
+  25%  {-webkit-text-fill-color:#ff4fcd;}
+  45%  {-webkit-text-fill-color: #ffbd42;}
+  50%  {-webkit-text-fill-color:#fffb1f;}
+  70%  {-webkit-text-fill-color: #9a42ff;}
+  100% {-webkit-text-fill-color:#42e6ff;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text21 {
+   top: 53vw;
+    left: 31.1vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example21;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+@keyframes example21 {
+   10%  {-webkit-text-fill-color: #9a42ff;}
+  25%  {-webkit-text-fill-color:#5cff40;}
+  45%  {-webkit-text-fill-color: #fffb1f;}
+  50%  {-webkit-text-fill-color:#42e6ff;}
+  70%  {-webkit-text-fill-color: #ffbd42;}
+  100% {-webkit-text-fill-color: #ff4fcd;} 
+
+}
+
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text22 {
+   top: 53vw;
+    left: 38.2vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example22;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example22 {
+   10%  {-webkit-text-fill-color: #fffb1f;}
+  25%  {-webkit-text-fill-color: #9a42ff;}
+  45%  {-webkit-text-fill-color: #ff4fcd;}
+  50%  {-webkit-text-fill-color:#ffbd42;}
+  70%  {-webkit-text-fill-color: #42e6ff;}
+  100% {-webkit-text-fill-color: #5cff40;} 
+
+}
+
+
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text23 {
+   top: 53vw;
+    left: 48vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example23;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+@keyframes example23 {
+   10%  {-webkit-text-fill-color: #9a42ff;}
+  25%  {-webkit-text-fill-color:#5cff40;}
+  45%  {-webkit-text-fill-color: #fffb1f;}
+  50%  {-webkit-text-fill-color:#42e6ff;}
+  70%  {-webkit-text-fill-color: #ffbd42;}
+  100% {-webkit-text-fill-color: #ff4fcd;} 
+
+}
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text24 {
+   top: 53vw;
+    left: 54.8vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example24;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+@keyframes example24 {
+   10%  {-webkit-text-fill-color: #ffbd42;}
+  25%  {-webkit-text-fill-color:#42e6ff;}
+  45%  {-webkit-text-fill-color: #5cff40;}
+  50%  {-webkit-text-fill-color:#ff4fcd;}
+  70%  {-webkit-text-fill-color: #fffb1f;}
+  100% {-webkit-text-fill-color:#9a42ff;} 
+
+}
+
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text28 {
+   top: 64vw;
+    left: 19.9vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example10;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example10 {
+   10%  {-webkit-text-fill-color: #9a42ff;}
+  25%  {-webkit-text-fill-color:#5cff40;}
+  45%  {-webkit-text-fill-color: #fffb1f;}
+  50%  {-webkit-text-fill-color:#42e6ff;}
+  70%  {-webkit-text-fill-color: #ffbd42;}
+  100% {-webkit-text-fill-color: #ff4fcd;} 
+
+}
+
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text29 {
+   top: 64vw;
+    left: 27.9vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example29;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+
+@keyframes example29 {
+   10%  {-webkit-text-fill-color: #42e6ff;}
+  25%  {-webkit-text-fill-color: #ffbd42;}
+  45%  {-webkit-text-fill-color: #9a42ff;}
+  50%  {-webkit-text-fill-color: #5cff40;}
+  70%  {-webkit-text-fill-color: #ff4fcd;}
+  100% {-webkit-text-fill-color: #fffb1f;} 
+
+}
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text30 {
+   top: 64vw;
+    left: 37.9vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example30;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+
+
+@keyframes example30 {
+   10%  {-webkit-text-fill-color: #ffbd42;}
+  25%  {-webkit-text-fill-color:#42e6ff;}
+  45%  {-webkit-text-fill-color: #5cff40;}
+  50%  {-webkit-text-fill-color:#ff4fcd;}
+  70%  {-webkit-text-fill-color: #fffb1f;}
+  100% {-webkit-text-fill-color:#9a42ff;} 
+
+}
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text31 {
+   top: 64vw;
+    left: 47.7vw;
+    position: absolute;
+    font-size: 12vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: #ff4fcd;
+    animation-name: example31;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+}
+@keyframes example31 {
+   10%  {-webkit-text-fill-color: #5cff40;}
+  25%  {-webkit-text-fill-color:#ff4fcd;}
+  45%  {-webkit-text-fill-color: #ffbd42;}
+  50%  {-webkit-text-fill-color:#fffb1f;}
+  70%  {-webkit-text-fill-color: #9a42ff;}
+  100% {-webkit-text-fill-color:#42e6ff;} 
+
+}
+
+
+
+
+
+
+
+
