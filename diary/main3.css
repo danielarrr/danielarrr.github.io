@@ -1,0 +1,59 @@
+html {
+   cursor: url('sd.gif'), auto;
+
+}
+
+
+body{
+     background-color: #67ff59;
+ cursor: url('sd.gif'), auto;
+
+}
+
+
+
+
+ .img11 img{
+     width: 95%;
+    top: -4vw;
+    left: 5vw;
+      position: fixed; 
+
+  }
+ 
+
+
+ .img1 img{
+      width: 103%;
+    top: -2vw;
+    left: 2vw;
+    position: absolute;
+
+  }
+
+
+   .img9 img{
+    width: 8%;
+   top: 1vw;
+    left: 2vw;
+      position: fixed; 
+
+  }
+
+
+
+
+  @supports (-webkit-text-stroke: 1px black) {
+  .text4 {
+       top: 2vw;
+    left: 83vw;
+    position: fixed;
+    font-size: 2.5vw;
+    font-family: "helvetica"
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #00fbff;
+    animation-name: example;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+      text-shadow: 0 0 3px #f83bff, 0 0 14px #f83bff;
+  }

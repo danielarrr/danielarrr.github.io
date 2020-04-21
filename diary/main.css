@@ -505,3 +505,166 @@ body{
     left: 81.5vw;
     position: absolute;
 }
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text3 {
+    top: 328vw;
+    left: 18vw;
+    position: absolute;
+    margin-right: 12vw;
+    font-size: 2.5vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #00fbff;
+    animation-name: example;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+      text-shadow: 0 0 3px #f83bff, 0 0 14px #f83bff;
+  }
+
+
+@supports (-webkit-text-stroke: 1px black) {
+  .text4 {
+        top: 333vw;
+    left: 18vw;
+    position: absolute;
+    margin-right: 12vw;
+    font-size: 2.5vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #00fbff;
+    animation-name: example;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+      text-shadow: 0 0 3px #f83bff, 0 0 14px #f83bff;
+  }
+
+  @supports (-webkit-text-stroke: 1px black) {
+  .text5 {
+  top: 338vw;
+    left: 18vw;
+    position: absolute;
+    margin-right: 12vw;
+    font-size: 2.5vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #00fbff;
+    animation-name: example;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+      text-shadow: 0 0 3px #f83bff, 0 0 14px #f83bff;
+  }
+
+  @supports (-webkit-text-stroke: 1px black) {
+  .text6 {
+  top: 343vw;
+    left: 18vw;
+    position: absolute;
+    margin-right: 12vw;
+    font-size: 2.5vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #00fbff;
+    animation-name: example;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+      text-shadow: 0 0 3px #f83bff, 0 0 14px #f83bff;
+  }
+
+  @supports (-webkit-text-stroke: 1px black) {
+  .text7 {
+  top: 348vw;
+    left: 18vw;
+    position: absolute;
+    margin-right: 12vw;
+    font-size: 2.5vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #00fbff;
+    animation-name: example;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+      text-shadow: 0 0 3px #f83bff, 0 0 14px #f83bff;
+  }
+
+   @supports (-webkit-text-stroke: 1px black) {
+  .text8 {
+  top: 353vw;
+    left: 18vw;
+    position: absolute;
+    margin-right: 12vw;
+    font-size: 2.5vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #00fbff;
+    animation-name: example;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+      text-shadow: 0 0 3px #f83bff, 0 0 14px #f83bff;
+  }
+
+   @supports (-webkit-text-stroke: 1px black) {
+  .text9 {
+ top: 310vw;
+    left: 21vw;
+    position: absolute;
+    margin-right: 12vw;
+    font-size: 9.5vw;
+    font-family: "helvetica";
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #00fbff;
+    animation-name: example;
+     animation-duration: 4s;
+      animation-iteration-count: infinite;
+      text-shadow: 0 0 3px #f83bff, 0 0 14px #f83bff;
+  }
+
+    .img44 img{
+        width: 18%;
+       top: 324vw;
+    left: 65.5vw;
+    position: absolute;
+}
+    .img45 img{
+         width: 10%;
+    top: 334vw;
+    left: 60.5vw;
+    position: absolute;
+}
+    .img46 img{
+     width: 27%;
+    top: 327vw;
+    left: 61.5vw;
+    position: absolute;
+}
+
+    .img47 img{
+        width: 18%;
+    top: 320vw;
+    left: 55.5vw;
+    position: absolute;
+}
+    .img50 img{
+        width: 7%;
+    top: 321vw;
+    left: 76.5vw;
+    position: absolute;
+}
+   .img51 img{
+      width: 18%;
+    top: 327vw;
+    left: 50.5vw;
+
+    position: absolute;
+}
+
+   .img53 img{
+        width: 15%;
+    top: 337vw;
+    left: 71.5vw;
+    position: absolute;
+}
+
+
+
