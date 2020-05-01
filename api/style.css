@@ -1,0 +1,52 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, sans-serif;
+  font-size: 33px;
+  	background: linear-gradient(-45deg, #40ff00, #ff80f2, #1cf0ff);
+	background-size: 5000% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+
+h1 {
+	font-family: Groovalicious Tweak;
+	 position: absolute;
+  top: 0px;
+  left: 40px;
+  font-size: 192px;
+  background: -webkit-linear-gradient(#FFF714,#F314FF,#FFFB14,#14FFFB,#8DFF14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.img1{
+
+    top: 103px;
+    left: 239px;
+    width: 24%;
+	position: absolute;
+}
+
+.img2{
+    top: 103px;
+    left: 177px;
+    width: 24%;
+    position: absolute;
+
+}
+
+
+
